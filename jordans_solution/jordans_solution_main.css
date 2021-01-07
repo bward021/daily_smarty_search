@@ -39,18 +39,27 @@ html {
   width: 10.5rem;
 }
 
-.homepage_search_bar {
+.search_bar {
   grid-column: 1/-1;
   grid-row: 2;
 }
 
-.homepage_search_bar input {
+.search_bar input {
   width: 66vw;
-  height: 11.8rem;
   padding-left: 0.75em;
 }
 
-.homepage_search_bar input[type="text"] {
+.results_search_bar input {
+  height: 5rem;
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+
+.homepage_search_bar input {
+  height: 11.8rem;
+}
+
+.search_bar input[type="text"] {
   font-size: 2.5em;
   font-family: "Font Awesome\ 5 free", Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -60,7 +69,7 @@ html {
   border-radius: 0.5rem;
 }
 
-.homepage_search_bar input[type="text"]::placeholder {
+.search_bar input[type="text"]::placeholder {
   font-family: "Font Awesome\ 5 free", Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #a4a4a4;
@@ -71,7 +80,7 @@ html {
   box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.35);
 }
 
-.homepage_search_bar p {
+.search_bar p {
   color: #b3b3b3;
   font-size: 1.4rem;
   line-height: 2.3rem;
