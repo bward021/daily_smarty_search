@@ -157,3 +157,15 @@ html {
 .result-post-link:hover {
   text-decoration: underline;
 }
+
+.results_logo {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results_logo img {
+  width: 50px;
+}
